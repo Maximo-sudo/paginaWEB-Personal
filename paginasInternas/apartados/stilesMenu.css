@@ -1,0 +1,141 @@
+                            /*FONDO*/
+/*-------------------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+#fondo {
+    background-image: url('fotos/fondo1.jpg');
+    background-size: cover;
+    background-position: center;
+        width: 100%;
+        height: 100%;
+    position: fixed;
+    opacity: 7.8;
+    z-index: 1;
+}
+
+                            /*BARRA SUPERIOR*/
+/*-------------------------------------------------------------------*/
+                            /*MENU - LOCO*/
+            /*----------------------------------------------*/
+.menuPrincipal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+    position: fixed;
+    z-index: 5; 
+    width: 100%;
+    margin-top: 21px;
+}
+.salesianosNombre {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-left: 80px;
+}
+.icono-salesianos img {
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+                            /*BOTON*/
+            /*----------------------------------------------*/
+.botones {
+  display: flex;
+  gap: 40px;
+}
+.botones button {
+  background: none;
+  color: #ffffff;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.botones button:hover {
+  color: orange;
+}
+
+                            /*EL CORREDOR*/
+            /*----------------------------------------------*/
+.elCorredor {
+    color: white;
+    background-color: black;
+    font-size: 14px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 6; 
+}
+
+                            /*CONTENEDOR TOTAL/
+/*-------------------------------------------------------------------*/
+#contenedorTotal {
+    max-width: 1000px;
+    margin: auto;
+    height: 100vh;
+    padding-top: 80px;
+    position: relative;
+    z-index: 4;
+}
+
+                            /*CONTENEDOR 1/
+/*-------------------------------------------------------------------*/
+header {
+    background-image: url('fotos/fonfo2.jpg');
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 10.5);
+    border: 10px solid black;
+    border-radius: 20px;
+}
+
+/* SECCIONES */
+.seccion {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    margin: 20px;
+}
+.section a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto del padre */
+    
+}
+#section1 {
+    display: flex; /* Usar flexbox para organizar los bloques */
+    justify-content: center;
+}
+#section2 {
+    display: flex; /* Usar flexbox para organizar los bloques */
+    justify-content: center;
+}
+#section3 {
+    display: flex; /* Usar flexbox para organizar los bloques */
+    justify-content: center;
+}
+.seccion:hover {
+    transform: scale(2.02);
+}
+
+h2 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
